@@ -1,0 +1,29 @@
+<mat-toolbar color="primary" class="mat-elevation-z8 navbar">
+  <span>
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="title">
+      {{title}}
+    </span>
+  </span>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" opened class="app-sidenav">
+    <mat-nav-list>
+      <a mat-list-item *ngFor="let nav of navList" routerLink="{{nav.path}}">
+        <mat-icon>
+          {{nav.icon}}
+        </mat-icon>
+        <span style="padding-left: 4px;">
+          {{nav.name}}
+        </span>
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <div class="app-container">
+    <router-outlet></router-outlet>
+  </div>
+</mat-sidenav-container>

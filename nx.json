@@ -7,5 +7,54 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "master-e2e": {
+      "tags": []
+    },
+    "master": {
+      "tags": []
+    },
+    "mapping-e2e": {
+      "tags": []
+    },
+    "mapping": {
+      "tags": []
+    },
+    "reports-e2e": {
+      "tags": []
+    },
+    "reports": {
+      "tags": []
+    },
+    "journal-entry-e2e": {
+      "tags": []
+    },
+    "journal-entry": {
+      "tags": []
+    },
+    "operation-e2e": {
+      "tags": []
+    },
+    "operation": {
+      "tags": []
+    },
+    "core-data": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
+    },
+    "login": {
+      "tags": []
+    },
+    "dashboard": {
+      "tags": []
+    },
+    "prapp-e2e": {
+      "tags": []
+    },
+    "prapp": {
+      "tags": []
+    }
+  }
 }
