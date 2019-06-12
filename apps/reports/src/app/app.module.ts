@@ -1,11 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReportAppComponent } from './app.component';
-import { RouterModule } from '@angular/router';
+import { ReportsRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [ReportAppComponent],
-  imports: [BrowserModule, RouterModule.forChild([])],
+  imports: [BrowserModule, ReportsRoutingModule],
   providers: [],
   exports: [ReportAppComponent],
   bootstrap: [ReportAppComponent]

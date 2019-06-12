@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { OperationRoutingModule } from './app-routing.module';
 import { OperationAppComponent } from './app.component';
-import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [OperationAppComponent],
-  imports: [BrowserModule, RouterModule.forChild([])],
+  imports: [BrowserModule, OperationRoutingModule],
   providers: [],
   exports: [OperationAppComponent],
   bootstrap: [OperationAppComponent]

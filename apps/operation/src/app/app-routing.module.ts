@@ -9,4 +9,4 @@ const routes: Routes = [];
   exports: [RouterModule],
   declarations: []
 })
-export class AppRoutingModule {}
+export class OperationRoutingModule {}
