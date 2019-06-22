@@ -1,6 +1,6 @@
 # Mono Repo App
 
-Combining multiple projects in Single application Prapp will load all other Projects
+## Combining multiple projects in Single application Prapp will load all other Projects
 
 ## Generate an application
 
